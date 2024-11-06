@@ -11,6 +11,7 @@ public class Locators extends Base {
 		WebElement messagetext=driver.findElement(By.id("single-input-field"));
 		WebElement valuea=driver.findElement(By.id("value-a"));
 		WebElement valueb=driver.findElement(By.id("value-a"));
+		WebElement showmessage=driver.findElement(By.id("button-one"));
 		
 		//WebElement elementname=driver.findElement(By.locator(locatornameor "attribute vale"));
 	}
