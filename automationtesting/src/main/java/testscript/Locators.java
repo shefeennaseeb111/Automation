@@ -52,16 +52,16 @@ public class Locators extends Base {
 	{
 	WebElement contains1=driver.findElement(By.xpath("//input[contains(@id,'single-input-field')]"));
 	
-		////tagname[contains(@attributetype,'value')]
+		// //tagname[contains(@attributetype,'value')]
 	}
 	public void text()
 	{
 		WebElement textxpath=driver.findElement(By.xpath("//button[text()='Show Message']"));
-		////tagname[text()='value']
+		// //tagname[text()='value']
 	}
 	public void axespath()
 	{
-		////tagnem[@attributetype='value']//parent::tagname
+		// //tagnem[@attributetype='value']//parent::tagname
 		
 		WebElement axespath1=driver.findElement(By.xpath("//input[@placeholder='Message']//parent::div"));
 		WebElement axespath2=driver.findElement(By.xpath("//a[@href='index.php']//child::img[@alt='logo']"));
